@@ -5,7 +5,6 @@
   "license": "MIT",
   "require": {
     "php": ">=5.4.0",
-    "illuminate/config": "~4.1",
     "illuminate/support": "~4.1",
     "guzzlehttp/guzzle": "~6.0"
   },
