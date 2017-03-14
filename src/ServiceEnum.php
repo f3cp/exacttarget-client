@@ -29,6 +29,11 @@ class ServiceEnum
             'method'    => 'post',
             'service'   => 'address',
             'action'    => 'validateEmail',
+        ],
+        'sendTriggeredMessage' => [
+            'method'    => 'post',
+            'service'   => 'messaging',
+            'action'    => 'messageDefinitionSends/key:{key}/send',
         ]
     ];
 
